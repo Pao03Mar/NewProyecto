@@ -1,0 +1,16 @@
+{% extends "index.html" %}
+
+
+{% block titulo %} Agregar nuevo proveedor {% endblock %}
+
+{% block contenido%}
+<div class="card" style="width: 70%; margin-top: 24px; margin-left: 20px; padding: 20px; background-color: #e3e4e7; border-radius: 20px;">
+    <div class="card-header">Crear proveedor</div>
+    <div class="card-body">
+        <h4 class="card-title">Ingresar datos</h4>
+        {% include "form.html" %}
+    </div>
+</div>
+
+
+{% endblock%}
